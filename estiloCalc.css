@@ -1,0 +1,49 @@
+body {
+  background-color: #999;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+header {
+  text-align: center;
+  padding: 1px;
+}
+
+section button {
+  margin: 5px;
+  font-size: 25px;
+  padding: 30px;
+}
+
+.row-0 {
+  display: flex;
+  justify-content: center;
+}
+
+.w-20 {
+  font-size: 40px;
+  text-align: end;
+  margin-bottom: 20px;
+  width: 35%;
+  height: 4rem;
+}
+
+section input {
+  margin-bottom: 40px;
+  padding: 15px 80px;
+}
+
+#limpar {
+  color: red;
+}
+
+.botao:hover {
+  background-color: #dbdbdb;
+  border-color: #999 bor;
+}

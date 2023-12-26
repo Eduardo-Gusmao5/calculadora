@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora (minha)</title>
+    <link rel="stylesheet" href="estiloCalc.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Calculadora</h1>
+    </header>
+
+    <div class="flex justify-content-center">
+      <input id="visor" class="w-20" type="text" />
+    </div>
+
+    <div class="flex justify-content-center">
+      <section class="flex">
+        <div id="localBotoes">
+          <div>
+            <button class="botao" value="1">1</button>
+            <button class="botao" value="2">2</button>
+            <button class="botao" value="3">3</button>
+          </div>
+
+          <div>
+            <button class="botao" value="4">4</button>
+            <button class="botao" value="5">5</button>
+            <button class="botao" value="6">6</button>
+          </div>
+
+          <div>
+            <button class="botao" value="7">7</button>
+            <button class="botao" value="8">8</button>
+            <button class="botao" value="9">9</button>
+          </div>
+
+          <div class="row-0">
+            <button class="botao" value="0">0</button>
+            <button class="operacao">C</button>
+            <button id="multiplicar" class="operacao">*</button>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <button id="mais" class="operacao" value="+">+</button>
+          </div>
+
+          <div>
+            <button id="menos" class="operacao" value="-">-</button>
+          </div>
+
+          <div>
+            <button class="operacao">/</button>
+          </div>
+
+          <div>
+            <button class="operacao" value="=">=</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
