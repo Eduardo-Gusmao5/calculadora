@@ -1,25 +1,3 @@
-// let mais = document.getElementById("mais");
-// let menos = document.getElementById("menos");
-
-// let num = 0;
-// let p = document.getElementById("eu");
-// p.innerHTML = num;
-
-// function alteraNum(sinal) {
-//   let p = document.getElementById("eu");
-//   if (sinal == "+") {
-//     p.innerHTML = ++num;
-//   }
-
-//   if (sinal == "-") {
-//     if (p.innerHTML <= 0) return;
-//     p.innerHTML = --num;
-//   }
-// }
-
-// mais.addEventListener("click", () => alteraNum("+"));
-// menos.addEventListener("click", () => alteraNum("-"));
-
 let armazenar2 = 0;
 let visor = document.getElementById("visor");
 let arraydeBotao = document.getElementsByClassName("botao");
